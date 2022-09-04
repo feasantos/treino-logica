@@ -83,21 +83,21 @@
         A seguinte regra deverá ser respeitada: o lobo não pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa;
         Escreva um algoritmo para fazer a travessia dos pertences que estão em uma marge do rio para outra;
 
-RESPOSTA:
-1 - INICIO
-2 - Atravessar Cabra;
-3 - Tirar cabra;
-4 - Voltar;
-5 - Atravessar Alfafa;
-6 - Deixar alfafa;
-7 - Voltar com Cabra;
-8 - Deixar cabrar;
-9 - Pegar lobo e atravessar;
-10 - Deixar lobo e voltar;
-11 - Pegar cabrar e atravessar;
-12 - FIM;
+    RESPOSTA:
+        1 - INICIO
+        2 - Atravessar Cabra;
+        3 - Tirar cabra;
+        4 - Voltar;
+        5 - Atravessar Alfafa;
+        6 - Deixar alfafa;
+        7 - Voltar com Cabra;
+        8 - Deixar cabrar;
+        9 - Pegar lobo e atravessar;
+        10 - Deixar lobo e voltar;
+        11 - Pegar cabrar e atravessar;
+        12 - FIM;
 
-2.  JS: Exibir média de 5 numeros com entradas pelo formulario HTML.
+    2.  JS: Exibir média de 5 numeros com entradas pelo formulario HTML.
     Enviar links do git ou do fiddle
 
         https://github.com/feasantos/treino-logica
