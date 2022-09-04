@@ -21,9 +21,9 @@ Algoritmo:
 2. Receber o primeiro numero: entrada 1;
 3. Receber o primeiro numero: entrada 2;
 4. Receber o primeiro numero: entrada 3;
-5.(PROCESSAMENTO) Somar os 3 numeros recebidos e dividir por três: (entrada 1 + entrada 2 + entrada 3) /3;
-6. Exibir o resultado: print, echo, console.log;
-7. Fim;
+   5.(PROCESSAMENTO) Somar os 3 numeros recebidos e dividir por três: (entrada 1 + entrada 2 + entrada 3) /3;
+5. Exibir o resultado: print, echo, console.log;
+6. Fim;
 
 ### Funcionalidades Gerais
 
@@ -47,7 +47,8 @@ Algoritmo:
     - TIPAGEM: numero ou string
     - ARRAY
 
-## Operadores 
+## Operadores
+
     -Soma
     -Subtração
     - Multiplicar
@@ -65,23 +66,29 @@ Algoritmo:
     Adiciona 1++
     Subtrai 1 --
 
-*Operadores de Comparação
-    - Igual == ou ===
-    - Diferente !=
-    - Maior que >
-    - Maior ou igual >=
-    - Menor que <
-    - Menor ou igual <=
+\*Operadores de Comparação - Igual == ou === - Diferente != - Maior que > - Maior ou igual >= - Menor que < - Menor ou igual <=
 
-# Code Together 
+# Code Together
 
 ## Lista de Exercicios
 
 1. Descrever um Algoritmo para resolver o problema da travessia de modo "Seguro"
 
-Um homem precisa atravessar um rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um de seus tres pertences, que são: Um lobo, uma cabra e um maço de alfafa. Em cada viagem só poderá ir o homem e apaenas um de seus pertences. A seguinte regra deverá ser respeitada: o lobo não pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa. Escreva um algoritmo para fazer a travessia dos pertences que estão em uma marge do rio para outra. 
+Um homem precisa atravessar um rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um de seus tres pertences, que são: Um lobo, uma cabra e um maço de alfafa. Em cada viagem só poderá ir o homem e apaenas um de seus pertences. A seguinte regra deverá ser respeitada: o lobo não pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa. Escreva um algoritmo para fazer a travessia dos pertences que estão em uma marge do rio para outra.
 
-RESPOSTA: 
+RESPOSTA:
+1 - INICIO
+2 - Atravessar Cabra
+3 - Tirar cabra
+4 - Voltar
+5 - Atravessar Alfafa
+6 - Deixar alfafa
+7 - Voltar com Cabra
+8 - Deixar cabrar
+9 - Pegar lobo e atravessar
+10 - Deixar lobo e voltar
+11 - Pegar cabrar e atravessar.
+12 - FIM
 
 2.JS: Exibir média de 3 numeros com entradas pelo formulario HTML
 Enviar links do git ou do fiddle
