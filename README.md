@@ -1,0 +1,87 @@
+## Lógica de Programação
+
+    - Computador:
+
+--Máquina que extrai dados
+--Processar: realizar operações nos dados de entrada - Dado: é o que pode ser processado - Informação: resultado do processamento - Processamento de dados: Entrada(Dados) > Processamento > Saida(informação)
+
+E a lógica ?
+Lógica é aquilo que faz sentido
+
+Como escrever um programa ?
+= Aplicar a logica para descrever os passos para resolver um problema em ordem de execução
+= a sequencia de passos, intruções que o cumputador deve seguir é conhecida como Algoritmo
+
+Algoritmo:
+-Sequencia logica e finita de instruções que resolvem um problema - Exemplo: receita de Boolean, manual de instrução - Nem todo algoritmo é um programa de computador, mas todo programa de computador é algoritmo - Quem viabiliza o funcionamento dos algoritmos nos computadores: Linguagem de programação
+
+### Algoritmo para calcular a média de 3 numeros
+
+1. Inicio
+2. Receber o primeiro numero: entrada 1;
+3. Receber o primeiro numero: entrada 2;
+4. Receber o primeiro numero: entrada 3;
+5.(PROCESSAMENTO) Somar os 3 numeros recebidos e dividir por três: (entrada 1 + entrada 2 + entrada 3) /3;
+6. Exibir o resultado: print, echo, console.log;
+7. Fim;
+
+### Funcionalidades Gerais
+
+    - Cria algoritmos e programas para executar no navegador: client Side
+    - Manipular o DOM: elementos HTML, eventos(clique, submit), estilos CSS
+    - Node.js: Framework JS para backend / runtime em JS
+    - Mongo.db / GraphQL: banco de dados em JS
+    - React / VTTCue.js / Angular: Framework JS para desenvolvimento web / mobile
+    - React Native: framework JS para desenvolvimento mobile
+    - receber e manipular dados
+    - tomar decisões baseados em logica computacional
+    - loop e interações
+    - condições de Saida
+
+### Variaveis
+
+    - VAR
+    - CONST(fica com valor imutavel)
+    - LET
+    - STRING(tipo de variavel para conjunto de caracteres)
+    - TIPAGEM: numero ou string
+    - ARRAY
+
+## Operadores 
+    -Soma
+    -Subtração
+    - Multiplicar
+    - Dividir
+    - Modulo (resto de divisão)
+    - Math: random(), round(), sqrt().
+
+    * Atribuição
+    a = b
+    a += b
+    a -= b
+    a *= b
+    a /= b
+    a %= b
+    Adiciona 1++
+    Subtrai 1 --
+
+*Operadores de Comparação
+    - Igual == ou ===
+    - Diferente !=
+    - Maior que >
+    - Maior ou igual >=
+    - Menor que <
+    - Menor ou igual <=
+
+# Code Together 
+
+## Lista de Exercicios
+
+1. Descrever um Algoritmo para resolver o problema da travessia de modo "Seguro"
+
+Um homem precisa atravessar um rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um de seus tres pertences, que são: Um lobo, uma cabra e um maço de alfafa. Em cada viagem só poderá ir o homem e apaenas um de seus pertences. A seguinte regra deverá ser respeitada: o lobo não pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa. Escreva um algoritmo para fazer a travessia dos pertences que estão em uma marge do rio para outra. 
+
+RESPOSTA: 
+
+2.JS: Exibir média de 3 numeros com entradas pelo formulario HTML
+Enviar links do git ou do fiddle
