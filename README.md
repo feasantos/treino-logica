@@ -101,3 +101,75 @@
     Enviar links do git ou do fiddle
 
         https://github.com/feasantos/treino-logica
+
+        https://jsfiddle.net/dz6oyfwv/4/
+
+# Operadores 
+
+## Aritméticos: retornam resultado de uma operação
+
+    + Somar
+    - Subtrair 
+    * Multiplicar
+    / Dividir
+    % resto de divisão
+
+##  Comparadores matemáticos: teste lógico, retorno booleano (true/false):
+    < Menor que
+    > Maior que
+    <= Menor ou igual 
+    >= Maior ou igual
+
+## Comparadores lógicos: teste lógico, retorno booleano ( True / false)
+
+    == igualdade entre sentenças (valor)
+    != diferença entre sentenças (valor)
+    === igualdade entre sentenças (valor e tipo)
+    !== diferença entre sentenças (valor e tipo)
+
+    a == b = true
+    a != b = false
+
+    * Atribuição
+    a = b
+    b = 4
+
+## Operadores de lógica e junção lógica
+
+    !   NÃO (NOT)
+    &&   E (AND)
+    ||   OU (OR)
+
+    O sinal de exclamação (!) é o operador de NOT (não), utilizado para negar a sentença que vem na sequencia.
+
+    #### Exemplos:
+
+    a != b   // o valor a é diferente de b
+    x !== y  // o valor e o tipo  de x são diferentes de y
+    !a == b   // o valor de a não é igual ao valor de b
+
+#### As condições lógicas são convertidas em numeros binários:
+
+    true é equivalente a 1
+    false é equivalente a 0
+
+#### Operador logico de atribuição 
+
+    Tem a capacidade de atribuir valor a uma variavel a partir de uma condição logica, economiza IFs
+
+    Exemplo: 
+
+    var meuCarro = cor == "preto" ? "preto" : branco;
+
+## IF
+    if (...){
+
+    }
+
+## ELSE 
+
+    else (...){
+
+    }
+
+## IF
