@@ -102,7 +102,7 @@
 
         https://github.com/feasantos/treino-logica
 
-        https://jsfiddle.net/dz6oyfwv/4/
+        https://jsfiddle.net/dz6oyfwv/5/
 
 # Operadores
 
@@ -202,4 +202,54 @@
 
 ## Laços de Repetição
 
-    
+    for ([expressaoInicial]; [condicao]; [incremento])
+
+    while ( [condicao]){
+        [execucao]
+    }
+    var contador = 0;
+    while (contador < 10){
+        contador++
+    }
+
+    var hora = 24;
+    while (hora > 0){
+        hora --;
+        console.log("total de horas: " + hora);
+    }
+
+    Fazer revisão do carro aos 10k//
+
+    var km;
+    var revisao = 3;
+    for ( km = 0; km <= revisao; km++){
+    console.log ("apenas" + km +"kms então pode rodar");
+    }   
+
+### Calculo de media alunos
+
+    var alunos = [
+        [6,7,8,6],
+        [8,5,6,8],
+        [10,6,8,7],
+    ]
+    var nota = 0;
+    for (var i = 0; i < aluno.length; i++){
+        
+        nota = 0
+        aluno = alunos [i]
+        console.log ("Aluno: " + aluno);
+
+        for (c = 0; c < aluno.lenght; c++){
+            nota += aluno [c];
+        }
+        
+        media = nota /4;
+
+        if(media >= 7){
+            resultado = "aprovado";
+        } else {
+            resultado = "reprovado";
+        }
+        console.log("Media:" + media + " - " + resultado);
+        }
