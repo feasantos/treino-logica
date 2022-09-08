@@ -104,20 +104,21 @@
 
         https://jsfiddle.net/dz6oyfwv/4/
 
-# Operadores 
+# Operadores
 
 ## Aritméticos: retornam resultado de uma operação
 
     + Somar
-    - Subtrair 
+    - Subtrair
     * Multiplicar
     / Dividir
     % resto de divisão
 
-##  Comparadores matemáticos: teste lógico, retorno booleano (true/false):
+## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
+
     < Menor que
     > Maior que
-    <= Menor ou igual 
+    <= Menor ou igual
     >= Maior ou igual
 
 ## Comparadores lógicos: teste lógico, retorno booleano ( True / false)
@@ -130,9 +131,9 @@
     a == b = true
     a != b = false
 
-    * Atribuição
-    a = b
-    b = 4
+- Atribuição
+  a = b
+  b = 4
 
 ## Operadores de lógica e junção lógica
 
@@ -153,23 +154,51 @@
     true é equivalente a 1
     false é equivalente a 0
 
-#### Operador logico de atribuição 
+#### Operador logico de atribuição
 
     Tem a capacidade de atribuir valor a uma variavel a partir de uma condição logica, economiza IFs
 
-    Exemplo: 
+    Exemplo:
 
     var meuCarro = cor == "preto" ? "preto" : branco;
 
 ## IF
+
     if (...){
 
     }
 
-## ELSE 
+## ELSE
 
     else (...){
 
     }
 
-## IF
+## ELSE IF
+    * Exemplo
+    if ( cor == "preto"){
+        meuCarro = "preto";
+    } else if ( cor == "vermelho"){
+        meuCarro = "preto"
+    } else if ( cor == "branco"){
+        meuCarro = "preto"
+    } else { 
+        meuCarro = "azul";
+    }    
+## Switch
+    Switch (cor){
+        case "branco":
+            meuCarro = "branco";
+            break;
+        case "vermelho" :
+            meuCarro = "vermelho";
+            break;
+        case "amarelo" :
+            meuCarro = "amarelo";
+            break;
+        default :    
+            console.log ("Não temos a cor desejada");
+}
+
+## Laços de Repetição
+
