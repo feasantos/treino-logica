@@ -253,3 +253,20 @@
         }
         console.log("Media:" + media + " - " + resultado);
         }
+
+## Funções 
+
+    - Evitar a repetição do codigo
+    - Realizar chamadas dinamicas de algoritmos
+
+    function calcularMedia (notas){
+
+        var soma = 0;
+        for ( c = 0; c < notas.length; c++){
+            soma += notas [c];
+        }
+        media = soma / notas.length;
+
+        return media;
+    }
+    console.log("Media: " + calcularMedia([8,8]))
