@@ -175,6 +175,7 @@
     }
 
 ## ELSE IF
+
     * Exemplo
     if ( cor == "preto"){
         meuCarro = "preto";
@@ -182,10 +183,12 @@
         meuCarro = "preto"
     } else if ( cor == "branco"){
         meuCarro = "preto"
-    } else { 
+    } else {
         meuCarro = "azul";
-    }    
+    }
+
 ## Switch
+
     Switch (cor){
         case "branco":
             meuCarro = "branco";
@@ -196,8 +199,9 @@
         case "amarelo" :
             meuCarro = "amarelo";
             break;
-        default :    
+        default :
             console.log ("Não temos a cor desejada");
+
 }
 
 ## Laços de Repetição
@@ -224,7 +228,7 @@
     var revisao = 3;
     for ( km = 0; km <= revisao; km++){
     console.log ("apenas" + km +"kms então pode rodar");
-    }   
+    }
 
 ### Calculo de media alunos
 
@@ -235,7 +239,7 @@
     ]
     var nota = 0;
     for (var i = 0; i < aluno.length; i++){
-        
+
         nota = 0
         aluno = alunos [i]
         console.log ("Aluno: " + aluno);
@@ -243,7 +247,7 @@
         for (c = 0; c < aluno.lenght; c++){
             nota += aluno [c];
         }
-        
+
         media = nota /4;
 
         if(media >= 7){
@@ -254,7 +258,7 @@
         console.log("Media:" + media + " - " + resultado);
         }
 
-## Funções 
+## Funções
 
     - Evitar a repetição do codigo
     - Realizar chamadas dinamicas de algoritmos
